@@ -307,6 +307,9 @@ ul.flex {
   align-items: center;
 }
 
+.icons svg{
+fill: white;
+}
 .padding{
   padding: 1rem;
 }
@@ -327,7 +330,7 @@ a[role="button"]:hover {
   text-decoration: underline;
 }
 
-.icons:hover {
+.icons:hover, .icons svg:hover{
   border: 1px solid var(--clr-primary);
   color: var(--clr-primary);
 }
