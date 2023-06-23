@@ -305,6 +305,9 @@ ul.flex {
   border-radius: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.padding{
   padding: 1rem;
 }
 
