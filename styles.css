@@ -335,7 +335,7 @@ a[role="button"]:hover {
   color: var(--clr-primary);
 }
 
-.icons svg:hover{
+.icons:hover svg{
   fill: var(--clr-primary);
 }
 
