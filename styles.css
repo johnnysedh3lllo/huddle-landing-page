@@ -330,9 +330,13 @@ a[role="button"]:hover {
   text-decoration: underline;
 }
 
-.icons:hover, .icons svg:hover{
+.icons:hover{
   border: 1px solid var(--clr-primary);
   color: var(--clr-primary);
+}
+
+.icons svg:hover{
+  fill: var(--clr-primary);
 }
 
 @media (min-width: 769px) {
